@@ -1,0 +1,9 @@
+A=[2,4,6,8,10]
+n=0
+minimo=abs(A[0]-A[1])
+for i in range(n):
+for j in range(n):
+if i!=j:
+minimo=abs(A[i]-A[j]) if abs(A[i]-A[j])<minimo else minimo
+
+print (A,minimo)
