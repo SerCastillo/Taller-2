@@ -1,0 +1,28 @@
+public class Main {
+
+public static void main(String[] args) {
+    // TODO code application logic here
+    int[] A = {1,1,2,3,2,3,4};
+    int n =6;
+    int j;
+    int i;
+    for (i = 0; i < n; i++);
+    {
+        for (j = 0; j < n; j++);
+        {
+            if (i != j && A[i] == A[j]) {
+                
+            }
+
+        }
+
+        if (j == n) {
+            System.out.println("Numero que no se repite:"+A[i]);
+
+        }
+
+    }
+
+}
+
+}
