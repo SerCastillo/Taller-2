@@ -1,0 +1,21 @@
+int main()
+{
+int numero[10],n,i=0,j=0,contador[10]={};
+printf("Introduzca la cantidad de numeros: ");
+scanf("%i",&n);
+for (i=0;i<n;i++)
+{
+printf("Numero %i: ",i+1);
+scanf("%i",&numero[i]);
+}
+for (i=0;i<n;i++)
+{
+for (j=0;j<n;j++)
+{
+if ( numero[i]==numero[j])
+contador[i]++;
+}
+printf("%i %i\n",numero[i],contador[i]);
+}
+return 0;
+}
